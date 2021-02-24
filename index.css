@@ -1,7 +1,15 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    font-size: normal;
+    src: url(<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">);
+}
+
+
 header {
     text-align:left;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 175px;
 }
 main {
     padding: 0 100px 0 100px;
@@ -11,13 +19,12 @@ main {
 .boxtwo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.sectionone,
-.sectiontwo {
-    margin-bottom: 20px;
+.topic {
+    margin-bottom: 30px;
 }
 
 
@@ -25,4 +32,29 @@ main {
     border: 2px black solid;
     width: 250px;
     height: 250px;
+    padding: 10px;
 }
+h2 {
+    text-align: center;
+}
+
+.footer {
+    padding: 60px 0px;
+    margin-left: 150px;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .footer p {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+ .inline {
+    display: flex;
+    justify-content: space-between
+  }
