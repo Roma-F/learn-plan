@@ -15,8 +15,9 @@ main {
     padding: 0 100px 0 100px;
 }
 
-.boxone,
 .boxtwo {
+.boxjava,
+.boxhtml {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
