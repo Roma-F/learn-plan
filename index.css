@@ -15,7 +15,7 @@ main {
     padding: 0 100px 0 100px;
 }
 
-.boxtwo {
+.boxjs,
 .boxjava,
 .boxhtml {
     display: flex;
